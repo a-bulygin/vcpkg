@@ -60,7 +60,6 @@ vcpkg_configure_cmake(
         -DBUILD_MISSING_PYBIND11=OFF
         -DBUILD_MISSING_DEPS=OFF
         -DVERBOSE=ON
-        -DPYBIND11_PYTHON_VERSION=3.7
 )
 
 vcpkg_install_cmake()
